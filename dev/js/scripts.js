@@ -1,4 +1,13 @@
+
+import { gsap } from "gsap";
+
+import {ScrollTrigger} from "gsap/ScrollTrigger";
+
 gsap.registerPlugin(ScrollTrigger);
+
+import { demoThing } from "./scrollanimation.js";
+
+demoThing();
 
 
 var squareTimeline = gsap.timeline();
