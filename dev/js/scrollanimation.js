@@ -1,11 +1,11 @@
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
-import {ScrollTrigger} from "gsap/ScrollTrigger";
+// import {ScrollTrigger} from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 
-export function demoThing(){
+// export function demoThing(){
 
-    console. log("this is working TOO");
-}
+//     console. log("this is working TOO");
+// }

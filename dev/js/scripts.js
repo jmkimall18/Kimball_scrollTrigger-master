@@ -1,31 +1,27 @@
 
-import { gsap } from "gsap";
-
-import {ScrollTrigger} from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
-import { demoThing } from "./scrollanimation.js";
-
-demoThing();
 
 
-var squareTimeline = gsap.timeline();
-squareTimeline.from("#red-box",{duration:5, xPercent: 300, rotation:360, alpha:0 })
-            .from("#orange-box",{duration:5, xPercent: 300, rotation:180, alpha:0 }, "-=0.5")
-            .from("#yellow-box",{duration:5, xPercent: 300, rotation:360, alpha:0 }, "-=0.5"); 
+// import { demoThing } from "./scrollanimation.js";
+
+// demoThing();
+
+
+// var squareTimeline = gsap.timeline();
+// squareTimeline.from("#red-box",{duration:5, xPercent: 300, rotation:360, alpha:0 })
+//             .from("#orange-box",{duration:5, xPercent: 300, rotation:180, alpha:0 }, "-=0.5")
+//             .from("#yellow-box",{duration:5, xPercent: 300, rotation:360, alpha:0 }, "-=0.5"); 
             
 
-ScrollTrigger.create({
-    trigger: "#orange-box",
-    start: "top 50%",
-    end: "bottom 50%",
-    animation: squareTimeline,
-    toggleActions: "restart none reverse none",
-    scrub: 1,
-    id: "#red",
-    markers: true
-});
+// ScrollTrigger.create({
+//     trigger: "#orange-box",
+//     start: "top 50%",
+//     end: "bottom 50%",
+//     animation: squareTimeline,
+//     toggleActions: "restart none reverse none",
+//     scrub: 1,
+//     id: "#red",
+//     markers: true
+// });
 
 
 

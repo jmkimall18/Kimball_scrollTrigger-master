@@ -1,40 +1,6 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-
-    background-color: #003049;
-    min-height: 100vh;
-
-    .container-grid-item{
-
-        padding-top: 100vh;
-
-        .box{
-            width: 100px;
-            height: 100px;
-            // margin-bottom: 30vh;
-            display: grid;
-            place-items: center;
-            color: $white;
-            font-size: rem-calc(50);
-
-            @include xl{
-                width: 300px;
-                height: 300px;
-            }
-        }
-        #red-box{
-            background-color: #003041;
-        }
-
-        #orange-box{
-            background-color: #f77f00;
-        }
-
-        #yellow-box{
-            background-color: #fcbf49;
-        }
-    }
-
+a {
+    text-decoration: none;
 }
