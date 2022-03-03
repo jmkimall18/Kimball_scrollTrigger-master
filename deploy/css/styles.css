@@ -634,10 +634,10 @@ a {
   background-color: #F2F4FB;
 }
 #section-1 div #sec1 svg {
+  display: flex;
   position: absolute;
-  padding-top: 300px;
-  width: 392px;
-  height: 204px;
+  height: 100vh;
+  width: 40vh;
 }
 #section-1 div #sec1 aside {
   margin: 70px;
@@ -691,6 +691,73 @@ a {
 /* =============
     Section 2
 ============= */
+@media (min-width: 992px) {
+  #section-2 div {
+    grid-template-areas: "sec3 sec4";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#section-2 div #sec3 {
+  grid-area: sec3;
+  background-image: url("../img/illu/chateau.jpg");
+  background-size: cover;
+  align-items: center;
+}
+#section-2 div #sec3 svg {
+  display: flex;
+  position: absolute;
+  width: 40vh;
+  height: -40vh;
+}
+#section-2 div #sec3 aside {
+  margin: 70px;
+  text-align: left;
+  text-align: right;
+  position: relative;
+  left: 500px;
+}
+#section-2 div #sec3 aside h1 {
+  color: #2A3150;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 200px;
+  text-align: left;
+  font-size: 48px;
+}
+#section-2 div #sec3 aside p {
+  text-align: left;
+  padding: 50px;
+  font-size: 18px;
+}
+#section-2 div #sec3 aside button {
+  text-align: right;
+  display: flex-end;
+  margin-right: 50px;
+  margin-top: 0px;
+  background-color: transparent;
+  border: transparent;
+  color: #2A3150;
+  cursor: pointer;
+  transition: 0.25s;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#section-2 div #sec3 aside button:hover, #section-2 div #sec3 aside button:active {
+  color: #C38583;
+}
+#section-2 div #sec4 {
+  grid-area: sec4;
+}
+#section-2 div #sec4 svg {
+  margin-left: 500px;
+  padding-top: 40px;
+  width: 180px;
+  height: 860px;
+}
+
 /* =============
     Section 3
 ============= */

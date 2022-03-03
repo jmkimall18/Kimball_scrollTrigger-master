@@ -1,3 +1,135 @@
 /* =============
     Section 2
 ============= */
+#section-2{
+
+
+    div{
+
+        @include lg {
+            grid-template-areas: 
+            "sec3 sec4";
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+        }
+
+        #sec3{
+
+            // display: grid;
+            grid-area: sec3;
+             background-image: url("../img/illu/chateau.jpg");
+             background-size: cover;
+             align-items: center;
+
+
+
+             svg{
+
+                display: flex;
+               position: absolute;
+                width: 40vh;
+                height: -40vh;
+                
+                // height: 20vh;
+               
+               }
+               
+                
+            
+                // article{
+        
+                // background-image: url("../img/image1/Ex1.jpg");
+                // background-size: cover;
+                // align-items: center;
+                // height: 420px;
+                // margin-left: -40px;
+                //             }
+               
+            aside{
+                margin: 70px;
+                
+                text-align: left;
+                text-align: right;
+                position: relative;
+               
+                left: 500px;
+                
+               h1{
+                // background-color: #ffffff;
+                color: #2A3150;
+                font-weight: 100;
+                padding-left: 50px;
+                padding-right: 40px;
+                padding-top: 200px;
+                text-align: left;
+                font-size: 48px;
+        
+               }
+        
+               p{
+                text-align: left;
+                // background-color: #ffffff;
+                padding: 50px;
+                font-size: 18px;
+               }
+        
+                   button{
+                   
+                    
+                    text-align: right;
+                    display: flex-end;
+                    
+                    margin-right: 50px;
+                    margin-top: 0px;
+                    // margin-bottom: 100px;
+                    background-color: transparent;
+                    border: transparent;
+                    color: #2A3150;
+                    cursor: pointer;
+                    transition: 0.25s;
+                    font-family: 'Noto Serif', serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    &:hover,
+                    &:active {
+                        color: #C38583;
+                    }
+                   }
+
+
+
+        }
+
+
+
+    }
+
+
+    #sec4{
+        grid-area: sec4;
+
+        svg{
+        margin-left: 500px;
+            padding-top: 40px;
+           width: 180px;
+           height: 860px;
+
+
+
+
+        }
+
+
+
+
+    }
+    
+
+
+
+    }
+
+}
+
+
+    
