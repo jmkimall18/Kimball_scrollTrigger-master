@@ -54,6 +54,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/image1\/Ex1.jpg" : {
+      "ft" : 16384,
+      "iS" : 426734,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image1\/Ex1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/image2\/img2.jpg" : {
+      "ft" : 16384,
+      "iS" : 520749,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image2\/img2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,

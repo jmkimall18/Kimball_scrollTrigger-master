@@ -500,7 +500,7 @@ header > div #logo-container {
   grid-area: logo;
 }
 header > div #logo-container img {
-  margin-top: 30px;
+  margin-top: 10px;
   padding-left: 40px;
 }
 header > div #burger-container {
@@ -538,20 +538,20 @@ header > div #nav-container {
   }
 }
 header > div #search {
-  height: 20px;
   align-items: right;
   justify-content: flex-end;
   display: flex;
   grid-area: search;
   margin-right: -350px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 100px;
 }
 header > div #search button {
   background-color: transparent;
   border: transparent;
   color: #2A3150;
   cursor: pointer;
-  font-size: 30;
   transition: 0.25s;
 }
 header > div #search button:hover, header > div #search button:active {
@@ -600,12 +600,151 @@ a {
   text-decoration: none;
 }
 
+#section-1 {
+  background-color: #F2F4FB;
+}
+@media (min-width: 992px) {
+  #section-1 div {
+    grid-template-areas: "sec1 sec2";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#section-1 div #sec1 {
+  grid-area: sec1;
+  background-color: #F2F4FB;
+}
+#section-1 div #sec1 svg {
+  position: absolute;
+  padding-top: 300px;
+  width: 392px;
+  height: 204px;
+}
+#section-1 div #sec1 aside {
+  margin: 70px;
+  background-color: #ffffff;
+  text-align: left;
+  text-align: right;
+}
+#section-1 div #sec1 aside h1 {
+  background-color: #ffffff;
+  color: #2A3150;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 40px;
+  text-align: left;
+  font-size: 48px;
+}
+#section-1 div #sec1 aside p {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 50px;
+  font-size: 18px;
+}
+#section-1 div #sec1 aside button {
+  text-align: right;
+  display: flex-end;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  background-color: transparent;
+  border: transparent;
+  color: #2A3150;
+  cursor: pointer;
+  transition: 0.25s;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#section-1 div #sec1 aside button:hover, #section-1 div #sec1 aside button:active {
+  color: #C38583;
+}
+#section-1 div #sec2 {
+  display: grid;
+  grid-area: sec2;
+  background-image: url("../img/image1/Ex1.jpg");
+  margin-top: 210px;
+  background-size: cover;
+  align-items: center;
+}
+
 /* =============
     Section 2
 ============= */
 /* =============
     Section 3
 ============= */
+#section-3 {
+  background-color: #F2F4FB;
+}
+#section-3 a {
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  #section-3 div {
+    grid-template-areas: "sec4 sec5";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#section-3 div #sec4 {
+  grid-area: sec4;
+  background-color: #F2F4FB;
+}
+#section-3 div #sec4 svg {
+  position: absolute;
+  margin-left: -800px;
+  width: 380px;
+}
+#section-3 div #sec4 aside {
+  margin: 70px;
+  background-color: #ffffff;
+  text-align: left;
+  text-align: right;
+}
+#section-3 div #sec4 aside h1 {
+  background-color: #ffffff;
+  color: #2A3150;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 40px;
+  text-align: left;
+  font-size: 48px;
+}
+#section-3 div #sec4 aside p {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 50px;
+  font-size: 18px;
+}
+#section-3 div #sec4 aside button {
+  text-align: right;
+  display: flex-end;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  background-color: transparent;
+  border: transparent;
+  color: #2A3150;
+  cursor: pointer;
+  transition: 0.25s;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#section-3 div #sec4 aside button:hover, #section-3 div #sec4 aside button:active {
+  color: #C38583;
+}
+#section-3 div #sec5 {
+  display: grid;
+  grid-area: sec5;
+  background-image: url("../img/image2/img2.jpg");
+  background-size: cover;
+  align-items: center;
+}
+
 /* =============
     Section 4
 ============= */

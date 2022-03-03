@@ -32,15 +32,11 @@ header {
 
         #logo-container {
             grid-area: logo;
-           
-
             img{
 
-                margin-top: 30px;
+                margin-top: 10px;
                 padding-left: 40px;
             }
-           
-           
         }
 
         #burger-container {
@@ -86,21 +82,22 @@ header {
 
         #search{
 
-            height: 20px;
+            
             align-items: right;
             justify-content: flex-end;
             display: flex;
             grid-area: search;
             margin-right: -350px;
-            padding-bottom: 5px;
+            padding-bottom: 20px;
+            font-size: 30px;
+            font-weight: 100px;
             button{
                
-            
+               
             background-color: transparent;
             border: transparent;
             color: #2A3150;
             cursor: pointer;
-            font-size: rem-calc(30);
             transition: 0.25s;
 
             &:hover,

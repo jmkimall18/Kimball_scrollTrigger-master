@@ -1,3 +1,123 @@
 /* =============
     Section 3
 ============= */
+#section-3{
+
+    a {
+        text-decoration: none;
+    }
+    
+    
+
+        
+        background-color: #F2F4FB;
+       
+    div{
+    
+        @include lg {
+            grid-template-areas: 
+            "sec4 sec5";
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+        }
+        
+     #sec4{
+       
+        grid-area: sec4;
+
+        svg{
+            position: absolute;
+           margin-left: -800px;
+           width: 380px;
+           
+            
+           }
+      
+        background-color: #F2F4FB;
+        // padding-top: 80px;
+        // padding-bottom: 80px;
+        
+    
+           
+            
+        
+            // article{
+    
+            // background-image: url("../img/image1/Ex1.jpg");
+            // background-size: cover;
+            // align-items: center;
+            // height: 420px;
+            // margin-left: -40px;
+            //             }
+           
+        aside{
+            margin: 70px;
+            background-color: #ffffff;
+            text-align: left;
+            text-align: right;
+            
+            
+           h1{
+            background-color: #ffffff;
+            color: #2A3150;
+            font-weight: 100;
+            padding-left: 50px;
+            padding-right: 40px;
+            padding-top: 40px;
+            text-align: left;
+            font-size: 48px;
+    
+           }
+    
+           p{
+            text-align: left;
+            background-color: #ffffff;
+            padding: 50px;
+            font-size: 18px;
+           }
+    
+               button{
+               
+                
+                text-align: right;
+                display: flex-end;
+                margin-right: 150px;
+                margin-top: 20px;
+                margin-bottom: 200px;
+                background-color: transparent;
+                border: transparent;
+                color: #2A3150;
+                cursor: pointer;
+                transition: 0.25s;
+                font-family: 'Noto Serif', serif;
+                font-weight: 700;
+                font-size: 20px;
+                &:hover,
+                &:active {
+                    color: #C38583;
+                }
+               }
+    
+        }
+                        }
+        #sec5{
+            display: grid;
+            grid-area: sec5;
+             background-image: url("../img/image2/img2.jpg");
+            
+             background-size: cover;
+             align-items: center;
+    
+             }
+            }
+            
+    
+    
+    
+        }
+    
+     
+    
+
+    
+
