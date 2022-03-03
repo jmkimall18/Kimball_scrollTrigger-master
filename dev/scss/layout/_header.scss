@@ -136,12 +136,31 @@ header {
 
         #comment{
             position: absolute;
-            padding-top: 500px;
+            padding-top: 650px;
             font-size: 30px;
             padding-left: 30px;
 
             h1{
-                color: #2A3150;
+                color: #ffffff;
+                @include md {
+              
+                    padding-bottom: 5px;
+                    font-size: 20px;
+                }
+        
+                @include lg{
+                    font-size: 64px;
+                }
+        
+                @include xl{
+                    font-size: 64px;
+        
+                }
+    
+                span {
+                   
+                    color: #2A3150;
+                }
             }
         }
 

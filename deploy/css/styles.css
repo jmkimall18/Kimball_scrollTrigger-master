@@ -582,11 +582,30 @@ header > div #Book button:hover, header > div #Book button:active {
 }
 header > div #comment {
   position: absolute;
-  padding-top: 500px;
+  padding-top: 650px;
   font-size: 30px;
   padding-left: 30px;
 }
 header > div #comment h1 {
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  header > div #comment h1 {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  header > div #comment h1 {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  header > div #comment h1 {
+    font-size: 64px;
+  }
+}
+header > div #comment h1 span {
   color: #2A3150;
 }
 
