@@ -1,3 +1,82 @@
 /* =============
     Section 4
 ============= */
+#section-4{
+
+
+ div{
+    margin-bottom: 80px;
+    margin-top: 30px;
+    aside{
+
+        h1{
+
+            background-color: #ffffff;
+            color: #2A3150;
+            font-weight: 100;
+            padding-top: 40px;
+            text-align: center;
+            font-size: 48px;
+
+        }
+
+
+
+    }
+
+    #sec7{
+        display: flex-end;
+        display: flex;
+        margin-left: 290px;
+        margin-top: 50px;
+        align-content: center;
+        gap: 40px;
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+ }
+
+ 
+ button{
+
+    
+    padding: 100px;
+    
+    display: flex;
+    margin-left: 700px;
+    margin-top: 50px;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Noto Serif', serif;
+    background-color: transparent;
+    border: 1 px;
+    color: #2A3150;
+    cursor: pointer;
+    font-size: rem-calc(30);
+    transition: 0.25s;
+
+    &:hover,
+    &:active {
+        color: #C38583;
+    }
+    
+
+
+ }
+
+ 
+
+}

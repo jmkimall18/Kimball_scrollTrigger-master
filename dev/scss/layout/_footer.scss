@@ -1,3 +1,313 @@
 /* =============
     Footer
 ============= */
+.footer{
+    display: grid;
+    background-color: #CBD0E3;
+    color: #2A3150;
+    padding-top: 50px;
+
+    @include md {
+        grid-template-areas: 
+        "one two"
+        "one three"
+        "one five";
+        grid-template-columns:repeat(2, 1fr);
+        
+    }
+    
+    @include lg {
+        grid-template-areas: 
+        "one three four"
+        "one two five";
+        grid-template-columns:repeat(3, 1fr);
+    }
+
+ .logo-part{
+    grid-area: one;
+    padding-left: 40px;
+    p{
+        color: #2A3150;
+       
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+       
+    }
+
+    margin: 40px;
+
+height: 300px;
+margin-right: 200px;
+
+    @include md{
+        p{
+            color: #2A3150;
+           
+            padding-top: 20px;
+            padding-bottom: 20px;
+           
+        }
+
+        margin: 40px;
+    border-right: 1px solid #2A3150;
+    height: 300px;
+    margin-right: 200px;
+}
+
+    @include lg{
+        p{
+            color: #2A3150;
+           
+            padding-top: 20px;
+            padding-bottom: 20px;
+           
+        }
+
+        margin: 40px;
+    border-right: 1px solid #2A3150;
+    height: 300px;
+    margin-right: 200px;
+}
+    
+    
+   
+    
+
+ }
+
+ .px-3{
+     display: none;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+    @include md{
+        display: grid;
+        grid-area: two;
+        
+        color: #2A3150;
+
+        .btn-footer{
+
+            color: #2A3150;
+
+            font-weight: 700;
+           
+
+        }
+        p{
+            padding-top: 20px;
+            padding-bottom: 40px;
+            padding-right: 30px;
+
+            padding-bottom: 50px;
+    
+            a{
+                margin-bottom: 100px;
+                color: #2A3150;
+                font-weight: 700;
+                
+                
+               }
+        
+            h2{
+                margin-bottom: 100px;
+            }
+            
+            
+            
+               
+        }
+
+
+
+
+
+    }
+
+    @include lg{
+        grid-area: two;
+        display: grid;
+        color: #2A3150;
+
+        .btn-footer{
+
+            color: #2A3150;
+
+            font-weight: 700;
+           
+
+        }
+        p{
+            padding-top: 20px;
+            padding-bottom: 40px;
+            padding-right: 30px;
+
+            padding-bottom: 50px;
+    
+            a{
+                margin-bottom: 100px;
+                color: #2A3150;
+                font-weight: 700;
+                
+                
+               }
+        
+            h2{
+                margin-bottom: 100px;
+            }
+            
+            
+            
+               
+        }
+
+        
+    }
+   
+ }
+
+ .px-4{
+    grid-area: three;
+    display: none;
+    @include md{
+
+        margin-top: 0px;
+        
+    
+        h2{
+    
+            padding-bottom: 30px;
+            
+    
+        }
+    
+       a{
+        padding-top: 0px;
+        color: #2A3150;
+        font-weight: 700;
+       }
+
+
+    }
+    
+
+    @include lg{
+
+        
+        display: grid;
+    
+        h2{
+    
+            padding-bottom: 30px;
+    
+        }
+    
+       a{
+       
+        color: #2A3150;
+        font-weight: 700;
+       }
+
+        
+    }
+   
+   
+
+}
+
+
+.px-5{
+    grid-area: four;
+    display: none;
+    @include lg{
+        display: grid;
+    
+        h2{
+    
+            padding-bottom: 30px;
+    
+        }
+    
+       a{
+       
+        color: #2A3150;
+        font-weight: 700;
+       }
+    
+    
+        
+    }
+
+    
+   
+       
+}
+
+.px-6{
+    display: none;
+    @include md{
+
+        display: grid;
+    h2{
+
+        padding-bottom: 30px;
+        padding-top: 30px;
+
+    }
+
+
+    a{
+        padding-top: 30px;
+        color: #2A3150;
+       }
+
+       p{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    
+    grid-area: five;
+        
+    }
+
+
+
+    }
+
+    @include lg{
+      
+        display: grid;
+    h2{
+
+        padding-bottom: 30px;
+
+    }
+
+
+    a{
+       
+        color: #2A3150;
+       }
+
+       p{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    margin-top: 0px;
+    grid-area: five;
+        
+    }
+
+   
+
+
+}
+
+
+
+
+
+

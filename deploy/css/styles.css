@@ -542,10 +542,10 @@ header > div #search {
   justify-content: flex-end;
   display: flex;
   grid-area: search;
-  margin-right: -350px;
+  margin-right: -300px;
   padding-bottom: 20px;
   font-size: 30px;
-  font-weight: 100px;
+  font-weight: 50px;
 }
 header > div #search button {
   background-color: transparent;
@@ -612,6 +612,203 @@ header > div #comment h1 span {
 /* =============
     Footer
 ============= */
+.footer {
+  display: grid;
+  background-color: #CBD0E3;
+  color: #2A3150;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .footer {
+    grid-template-areas: "one two" "one three" "one five";
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    grid-template-areas: "one three four" "one two five";
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.footer .logo-part {
+  grid-area: one;
+  padding-left: 40px;
+  margin: 40px;
+  height: 300px;
+  margin-right: 200px;
+}
+.footer .logo-part p {
+  color: #2A3150;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .footer .logo-part {
+    margin: 40px;
+    border-right: 1px solid #2A3150;
+    height: 300px;
+    margin-right: 200px;
+  }
+  .footer .logo-part p {
+    color: #2A3150;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .footer .logo-part {
+    margin: 40px;
+    border-right: 1px solid #2A3150;
+    height: 300px;
+    margin-right: 200px;
+  }
+  .footer .logo-part p {
+    color: #2A3150;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.footer .px-3 {
+  display: none;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+@media (min-width: 768px) {
+  .footer .px-3 {
+    display: grid;
+    grid-area: two;
+    color: #2A3150;
+  }
+  .footer .px-3 .btn-footer {
+    color: #2A3150;
+    font-weight: 700;
+  }
+  .footer .px-3 p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+  }
+  .footer .px-3 p a {
+    margin-bottom: 100px;
+    color: #2A3150;
+    font-weight: 700;
+  }
+  .footer .px-3 p h2 {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .footer .px-3 {
+    grid-area: two;
+    display: grid;
+    color: #2A3150;
+  }
+  .footer .px-3 .btn-footer {
+    color: #2A3150;
+    font-weight: 700;
+  }
+  .footer .px-3 p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+  }
+  .footer .px-3 p a {
+    margin-bottom: 100px;
+    color: #2A3150;
+    font-weight: 700;
+  }
+  .footer .px-3 p h2 {
+    margin-bottom: 100px;
+  }
+}
+.footer .px-4 {
+  grid-area: three;
+  display: none;
+}
+@media (min-width: 768px) {
+  .footer .px-4 {
+    margin-top: 0px;
+  }
+  .footer .px-4 h2 {
+    padding-bottom: 30px;
+  }
+  .footer .px-4 a {
+    padding-top: 0px;
+    color: #2A3150;
+    font-weight: 700;
+  }
+}
+@media (min-width: 992px) {
+  .footer .px-4 {
+    display: grid;
+  }
+  .footer .px-4 h2 {
+    padding-bottom: 30px;
+  }
+  .footer .px-4 a {
+    color: #2A3150;
+    font-weight: 700;
+  }
+}
+.footer .px-5 {
+  grid-area: four;
+  display: none;
+}
+@media (min-width: 992px) {
+  .footer .px-5 {
+    display: grid;
+  }
+  .footer .px-5 h2 {
+    padding-bottom: 30px;
+  }
+  .footer .px-5 a {
+    color: #2A3150;
+    font-weight: 700;
+  }
+}
+.footer .px-6 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .footer .px-6 {
+    display: grid;
+    grid-area: five;
+  }
+  .footer .px-6 h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .footer .px-6 a {
+    padding-top: 30px;
+    color: #2A3150;
+  }
+  .footer .px-6 p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    display: grid;
+    margin-top: 0px;
+    grid-area: five;
+  }
+  .footer h2 {
+    padding-bottom: 30px;
+  }
+  .footer a {
+    color: #2A3150;
+  }
+  .footer p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+}
+
 /* =============
     Section 1
 ============= */
@@ -636,7 +833,7 @@ a {
 #section-1 div #sec1 svg {
   display: flex;
   position: absolute;
-  height: 100vh;
+  margin-top: 380px;
   width: 40vh;
 }
 #section-1 div #sec1 aside {
@@ -705,22 +902,22 @@ a {
   align-items: center;
 }
 #section-2 div #sec3 svg {
-  display: flex;
   position: absolute;
-  width: 40vh;
-  height: -40vh;
+  margin-left: -700px;
+  padding-top: 40px;
+  width: 380px;
 }
 #section-2 div #sec3 aside {
   margin: 70px;
   text-align: left;
   text-align: right;
   position: relative;
-  left: 500px;
+  left: 480px;
 }
 #section-2 div #sec3 aside h1 {
   color: #2A3150;
   font-weight: 100;
-  padding-left: 50px;
+  padding-left: 0px;
   padding-right: 40px;
   padding-top: 200px;
   text-align: left;
@@ -729,13 +926,14 @@ a {
 #section-2 div #sec3 aside p {
   text-align: left;
   padding: 50px;
+  padding-left: 0px;
   font-size: 18px;
 }
 #section-2 div #sec3 aside button {
-  text-align: right;
+  text-align: center;
   display: flex-end;
-  margin-right: 50px;
-  margin-top: 0px;
+  margin-right: 160px;
+  margin-top: 50px;
   background-color: transparent;
   border: transparent;
   color: #2A3150;
@@ -753,7 +951,8 @@ a {
 }
 #section-2 div #sec4 svg {
   margin-left: 500px;
-  padding-top: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   width: 180px;
   height: 860px;
 }
@@ -781,6 +980,7 @@ a {
 #section-3 div #sec4 svg {
   position: absolute;
   margin-left: -800px;
+  padding-top: 10px;
   width: 380px;
 }
 #section-3 div #sec4 aside {
@@ -808,7 +1008,7 @@ a {
 #section-3 div #sec4 aside button {
   text-align: right;
   display: flex-end;
-  margin-right: 150px;
+  margin-right: 270px;
   margin-top: 20px;
   margin-bottom: 200px;
   background-color: transparent;
@@ -834,3 +1034,44 @@ a {
 /* =============
     Section 4
 ============= */
+#section-4 div {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+#section-4 div aside h1 {
+  background-color: #ffffff;
+  color: #2A3150;
+  font-weight: 100;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 48px;
+}
+#section-4 div #sec7 {
+  display: flex-end;
+  display: flex;
+  margin-left: 290px;
+  margin-top: 50px;
+  align-content: center;
+  gap: 40px;
+}
+#section-4 button {
+  padding: 100px;
+  display: flex;
+  margin-left: 700px;
+  margin-top: 50px;
+  align-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Noto Serif", serif;
+  background-color: transparent;
+  border: 1 px;
+  color: #2A3150;
+  cursor: pointer;
+  font-size: 30;
+  transition: 0.25s;
+}
+#section-4 button:hover, #section-4 button:active {
+  color: #C38583;
+}

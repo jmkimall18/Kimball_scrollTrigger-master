@@ -22,28 +22,14 @@
              align-items: center;
 
 
-
              svg{
-
-                display: flex;
-               position: absolute;
-                width: 40vh;
-                height: -40vh;
-                
-                // height: 20vh;
+                position: absolute;
+               margin-left: -700px;
+              padding-top: 40px;
+               width: 380px;
                
+                
                }
-               
-                
-            
-                // article{
-        
-                // background-image: url("../img/image1/Ex1.jpg");
-                // background-size: cover;
-                // align-items: center;
-                // height: 420px;
-                // margin-left: -40px;
-                //             }
                
             aside{
                 margin: 70px;
@@ -52,13 +38,13 @@
                 text-align: right;
                 position: relative;
                
-                left: 500px;
+                left: 480px;
                 
                h1{
                 // background-color: #ffffff;
                 color: #2A3150;
                 font-weight: 100;
-                padding-left: 50px;
+                padding-left: 0px;
                 padding-right: 40px;
                 padding-top: 200px;
                 text-align: left;
@@ -70,17 +56,18 @@
                 text-align: left;
                 // background-color: #ffffff;
                 padding: 50px;
+                padding-left: 0px;
                 font-size: 18px;
                }
         
                    button{
                    
                     
-                    text-align: right;
+                    text-align: center;
                     display: flex-end;
                     
-                    margin-right: 50px;
-                    margin-top: 0px;
+                    margin-right: 160px;
+                    margin-top: 50px;
                     // margin-bottom: 100px;
                     background-color: transparent;
                     border: transparent;
@@ -110,7 +97,8 @@
 
         svg{
         margin-left: 500px;
-            padding-top: 40px;
+            padding-top: 70px;
+            padding-bottom: 70px;
            width: 180px;
            height: 860px;
 
