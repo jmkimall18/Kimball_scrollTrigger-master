@@ -3,38 +3,53 @@
 ============= */
 
 #nav-container {
+    display: fixed;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: right;
     align-items: right;
     color: #2A3150;
+    
 
     ul {
+
+        height: 100%;
+        width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		
+
         
 
         @include lg {
             height: 100%;
-            display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
+			flex-direction: row;
+			align-items: flex-start;
+			width: 60vw;
         }
 
         li {
             
             text-align: right;
             font-family: 'Noto Serif', serif;
+            padding-top: 40px;
 
             @include lg {
-                align-items: right;
+                align-items: center;
                 display: flex;
-                align-items: right;
+                align-items: center;
                 justify-content: flex-end;
                 padding-top: 20px;
-                padding-right: 20px;
-                padding-left: 20px;
+                padding-right: 40px;
+               
                 
                
-                border-right: 2px solid #2A3150;
+                border-right: 1px solid #2A3150;
                 // border-bottom: -200px;
             }
 
@@ -42,19 +57,31 @@
             a:visited {
                
                 align-items: center;
-                
-                // padding: 0 20px;
-                // padding-left: 30px;
-                // padding-right: 30px;
-    
-                transition: 0.25s;
-    
-                
-                color: #2A3150;
-                &:hover,
+                color:  #2A3150;
+				padding: 0px 0px;
+				text-decoration: none;
+				transition: 0.25s;
+				width: 100vw;
+				text-align: center;
+				
+				
+				@include lg {
+					color:  #2A3150;
+					width: 10vw;
+                    
+				}
+				&:hover,
                 &:active {
-                    color: #C38583;
-                }
+					color: #C38583;
+					
+
+					@include lg{
+						padding:0px;
+						font-size: rem-calc(30);
+                        background-color: transparent;
+					}
+					// width: 20vw;
+				}
     
     
             }

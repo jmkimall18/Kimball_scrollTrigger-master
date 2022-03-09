@@ -425,6 +425,7 @@ textarea {
     Navigation
 ============= */
 #nav-container {
+  display: fixed;
   width: 100%;
   height: 100%;
   display: flex;
@@ -432,39 +433,69 @@ textarea {
   align-items: right;
   color: #2A3150;
 }
+#nav-container ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 992px) {
   #nav-container ul {
     height: 100%;
-    display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60vw;
   }
 }
 #nav-container ul li {
   text-align: right;
   font-family: "Noto Serif", serif;
+  padding-top: 40px;
 }
 @media (min-width: 992px) {
   #nav-container ul li {
-    align-items: right;
+    align-items: center;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: flex-end;
     padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: 2px solid #2A3150;
+    padding-right: 40px;
+    border-right: 1px solid #2A3150;
   }
 }
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
   align-items: center;
-  transition: 0.25s;
   color: #2A3150;
+  padding: 0px 0px;
+  text-decoration: none;
+  transition: 0.25s;
+  width: 100vw;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  #nav-container ul li a:link,
+#nav-container ul li a:visited {
+    color: #2A3150;
+    width: 10vw;
+  }
 }
 #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
 #nav-container ul li a:visited:hover,
 #nav-container ul li a:visited:active {
   color: #C38583;
+}
+@media (min-width: 992px) {
+  #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
+#nav-container ul li a:visited:hover,
+#nav-container ul li a:visited:active {
+    padding: 0px;
+    font-size: 30;
+    background-color: transparent;
+  }
 }
 #nav-container ul li li:last-child {
   border: none;
@@ -478,16 +509,40 @@ header {
   top: 0;
   width: 100%;
   height: 1000px;
-  z-index: 5000;
   z-index: 1000;
   background-image: url("../img/hero/hero1.jpg");
   background-size: cover;
   background-position: center;
 }
+header #circle-cover {
+  position: fixed;
+  width: 110vw;
+  height: 200vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  header #circle-cover {
+    display: none;
+  }
+}
+header #circle-cover #circle-svg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+header #circle-cover #circle-svg2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
 header > div {
   display: grid;
-  grid-template-areas: "logo burger" "nav nav";
-  grid-template-columns: 20% auto;
+  grid-template-areas: "logo . burger" "nav nav nav";
+  grid-template-columns: 20% 60% 20%;
 }
 @media (min-width: 992px) {
   header > div {
@@ -500,85 +555,104 @@ header > div #logo-container {
   grid-area: logo;
 }
 header > div #logo-container img {
-  margin-top: 10px;
-  padding-left: 40px;
+  margin-top: 0px;
+  padding-left: 30px;
+}
+@media (min-width: 992px) {
+  header > div #logo-container img {
+    margin-top: 10px;
+    padding-left: 40px;
+  }
 }
 header > div #burger-container {
-  align-items: right;
-  justify-content: flex-end;
-  display: flex;
+  z-index: 1;
   grid-area: burger;
   padding: 10px;
-  position: relative;
+  padding-top: 10px;
+  cursor: pointer;
+}
+header > div #burger-container:hover, header > div #burger-container:active {
+  color: #C38583;
 }
 @media (min-width: 992px) {
   header > div #burger-container {
     display: none !important;
   }
 }
-header > div #burger-container #burger {
-  position: absolute;
-  z-index: 1000;
-  height: 40px;
-  width: 40px;
-}
 header > div #nav-container {
   background-color: transparent;
-  grid-area: nav;
+  z-index: 3;
   position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 500;
+  height: 50vh;
+  grid-area: nav;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  header > div #nav-container {
+    font-size: 40px;
+  }
 }
 @media (min-width: 992px) {
   header > div #nav-container {
+    display: block !important;
     position: static;
     height: 100%;
     width: 100%;
+    font-size: 20px;
   }
 }
 header > div #search {
-  align-items: right;
-  justify-content: flex-end;
-  display: flex;
-  grid-area: search;
-  margin-right: -300px;
-  padding-bottom: 20px;
-  font-size: 30px;
-  font-weight: 50px;
+  display: none;
 }
-header > div #search button {
-  background-color: transparent;
-  border: transparent;
-  color: #2A3150;
-  cursor: pointer;
-  transition: 0.25s;
-}
-header > div #search button:hover, header > div #search button:active {
-  color: #C38583;
+@media (min-width: 992px) {
+  header > div #search {
+    align-items: right;
+    justify-content: flex-end;
+    display: flex;
+    grid-area: search;
+    margin-right: -300px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 50px;
+  }
+  header > div #search button {
+    background-color: transparent;
+    border: transparent;
+    color: #2A3150;
+    cursor: pointer;
+    transition: 0.25s;
+  }
+  header > div #search button:hover, header > div #search button:active {
+    color: #C38583;
+  }
 }
 header > div #Book {
-  padding: 30px;
-  align-items: right;
-  justify-content: flex-end;
-  display: flex;
-  grid-area: book;
+  display: none;
 }
-header > div #Book button {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: "Noto Serif", serif;
-  background-color: transparent;
-  border: 1 px;
-  color: #2A3150;
-  cursor: pointer;
-  font-size: 30;
-  transition: 0.25s;
-}
-header > div #Book button:hover, header > div #Book button:active {
-  color: #C38583;
+@media (min-width: 992px) {
+  header > div #Book {
+    padding: 30px;
+    align-items: right;
+    justify-content: flex-end;
+    display: flex;
+    grid-area: book;
+  }
+  header > div #Book button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Noto Serif", serif;
+    background-color: transparent;
+    border: 1 px;
+    color: #2A3150;
+    cursor: pointer;
+    font-size: 30;
+    transition: 0.25s;
+  }
+  header > div #Book button:hover, header > div #Book button:active {
+    color: #C38583;
+  }
 }
 header > div #comment {
   position: absolute;
@@ -592,7 +666,7 @@ header > div #comment h1 {
 @media (min-width: 768px) {
   header > div #comment h1 {
     padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 50px;
   }
 }
 @media (min-width: 992px) {
@@ -819,6 +893,13 @@ a {
 #section-1 {
   background-color: #F2F4FB;
 }
+@media (min-width: 768px) {
+  #section-1 div {
+    grid-template-areas: "sec1 sec2";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (min-width: 992px) {
   #section-1 div {
     grid-template-areas: "sec1 sec2";
@@ -833,11 +914,25 @@ a {
 #section-1 div #sec1 svg {
   display: flex;
   position: absolute;
-  margin-top: 380px;
-  width: 40vh;
+  margin-top: 320px;
+  width: 50vw;
+}
+@media (min-width: 768px) {
+  #section-1 div #sec1 svg {
+    margin-top: 360px;
+    width: 20vw;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 div #sec1 svg {
+    margin-top: 360px;
+    width: 30vw;
+  }
 }
 #section-1 div #sec1 aside {
-  margin: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 30px;
   background-color: #ffffff;
   text-align: left;
   text-align: right;
@@ -850,23 +945,43 @@ a {
   padding-right: 40px;
   padding-top: 40px;
   text-align: left;
-  font-size: 48px;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  #section-1 div #sec1 aside h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 div #sec1 aside h1 {
+    font-size: 48px;
+  }
 }
 #section-1 div #sec1 aside p {
   text-align: left;
   background-color: #ffffff;
-  padding: 50px;
-  font-size: 18px;
+  padding: 60px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #section-1 div #sec1 aside p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 div #sec1 aside p {
+    font-size: 18px;
+  }
 }
 #section-1 div #sec1 aside button {
   text-align: right;
   display: flex-end;
-  margin-right: 150px;
   margin-top: 20px;
   margin-bottom: 200px;
   background-color: transparent;
   border: transparent;
   color: #2A3150;
+  margin-right: 40px;
   cursor: pointer;
   transition: 0.25s;
   font-family: "Noto Serif", serif;
@@ -876,18 +991,49 @@ a {
 #section-1 div #sec1 aside button:hover, #section-1 div #sec1 aside button:active {
   color: #C38583;
 }
+@media (min-width: 768px) {
+  #section-1 div #sec1 aside button {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 div #sec1 aside button {
+    font-size: 24px;
+  }
+}
 #section-1 div #sec2 {
+  align-items: center;
   display: grid;
   grid-area: sec2;
-  background-image: url("../img/image1/Ex1.jpg");
-  margin-top: 210px;
-  background-size: cover;
+  background-color: #F2F4FB;
+}
+#section-1 div #sec2 img {
+  display: flex;
+  width: 100%;
   align-items: center;
+}
+@media (min-width: 768px) {
+  #section-1 div #sec2 img {
+    height: 300px;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 div #sec2 img {
+    height: 400px;
+  }
 }
 
 /* =============
     Section 2
 ============= */
+@media (min-width: 768px) {
+  #section-2 div {
+    grid-template-areas: "sec3 sec4";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (min-width: 992px) {
   #section-2 div {
     grid-template-areas: "sec3 sec4";
@@ -903,36 +1049,84 @@ a {
 }
 #section-2 div #sec3 svg {
   position: absolute;
-  margin-left: -700px;
+  margin-left: -600px;
   padding-top: 40px;
-  width: 380px;
+  width: 50vw;
+}
+@media (min-width: 768px) {
+  #section-2 div #sec3 svg {
+    margin-left: -400px;
+    width: 20vw;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 div #sec3 svg {
+    margin-left: -500px;
+    width: 30vw;
+  }
 }
 #section-2 div #sec3 aside {
   margin: 70px;
   text-align: left;
   text-align: right;
   position: relative;
-  left: 480px;
+}
+@media (min-width: 992px) {
+  #section-2 div #sec3 aside {
+    left: 480px;
+  }
+}
+@media (min-width: 768px) {
+  #section-2 div #sec3 aside {
+    left: 200px;
+  }
 }
 #section-2 div #sec3 aside h1 {
   color: #2A3150;
-  font-weight: 100;
-  padding-left: 0px;
-  padding-right: 40px;
-  padding-top: 200px;
-  text-align: left;
-  font-size: 48px;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  #section-2 div #sec3 aside h1 {
+    font-size: 24px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 200px;
+    text-align: left;
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 div #sec3 aside h1 {
+    font-size: 48px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-top: 200px;
+    text-align: left;
+    padding: 60px;
+  }
 }
 #section-2 div #sec3 aside p {
   text-align: left;
-  padding: 50px;
+  padding: 40px;
   padding-left: 0px;
-  font-size: 18px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #section-2 div #sec3 aside p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 div #sec3 aside p {
+    font-size: 18px;
+    padding: 60px;
+  }
 }
 #section-2 div #sec3 aside button {
   text-align: center;
   display: flex-end;
-  margin-right: 160px;
   margin-top: 50px;
   background-color: transparent;
   border: transparent;
@@ -943,6 +1137,17 @@ a {
   font-weight: 700;
   font-size: 20px;
 }
+@media (min-width: 768px) {
+  #section-2 div #sec3 aside button {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 div #sec3 aside button {
+    margin-right: -250px;
+    font-size: 20px;
+  }
+}
 #section-2 div #sec3 aside button:hover, #section-2 div #sec3 aside button:active {
   color: #C38583;
 }
@@ -950,11 +1155,32 @@ a {
   grid-area: sec4;
 }
 #section-2 div #sec4 svg {
-  margin-left: 500px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  width: 180px;
-  height: 860px;
+  margin-left: 200px;
+  margin-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100px;
+  height: 560px;
+}
+@media (min-width: 768px) {
+  #section-2 div #sec4 svg {
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100px;
+    height: 560px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 div #sec4 svg {
+    margin-left: 500px;
+    margin-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 180px;
+    height: 860px;
+  }
 }
 
 /* =============
@@ -963,28 +1189,46 @@ a {
 #section-3 {
   background-color: #F2F4FB;
 }
-#section-3 a {
-  text-decoration: none;
+@media (min-width: 768px) {
+  #section-3 div {
+    grid-template-areas: "sec1 sec2";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 992px) {
   #section-3 div {
-    grid-template-areas: "sec4 sec5";
+    grid-template-areas: "sec1 sec2";
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 #section-3 div #sec4 {
-  grid-area: sec4;
+  grid-area: sec1;
   background-color: #F2F4FB;
 }
 #section-3 div #sec4 svg {
+  display: flex;
   position: absolute;
-  margin-left: -800px;
-  padding-top: 10px;
-  width: 380px;
+  margin-top: 320px;
+  width: 50vw;
+}
+@media (min-width: 768px) {
+  #section-3 div #sec4 svg {
+    margin-top: 450px;
+    width: 20vw;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 div #sec4 svg {
+    margin-top: 420px;
+    width: 30vw;
+  }
 }
 #section-3 div #sec4 aside {
-  margin: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 30px;
   background-color: #ffffff;
   text-align: left;
   text-align: right;
@@ -997,23 +1241,43 @@ a {
   padding-right: 40px;
   padding-top: 40px;
   text-align: left;
-  font-size: 48px;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  #section-3 div #sec4 aside h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 div #sec4 aside h1 {
+    font-size: 48px;
+  }
 }
 #section-3 div #sec4 aside p {
   text-align: left;
   background-color: #ffffff;
-  padding: 50px;
-  font-size: 18px;
+  padding: 60px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #section-3 div #sec4 aside p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 div #sec4 aside p {
+    font-size: 18px;
+  }
 }
 #section-3 div #sec4 aside button {
   text-align: right;
   display: flex-end;
-  margin-right: 270px;
   margin-top: 20px;
   margin-bottom: 200px;
   background-color: transparent;
   border: transparent;
   color: #2A3150;
+  margin-right: 40px;
   cursor: pointer;
   transition: 0.25s;
   font-family: "Noto Serif", serif;
@@ -1023,12 +1287,37 @@ a {
 #section-3 div #sec4 aside button:hover, #section-3 div #sec4 aside button:active {
   color: #C38583;
 }
+@media (min-width: 768px) {
+  #section-3 div #sec4 aside button {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 div #sec4 aside button {
+    font-size: 24px;
+  }
+}
 #section-3 div #sec5 {
-  display: grid;
-  grid-area: sec5;
-  background-image: url("../img/image2/img2.jpg");
-  background-size: cover;
   align-items: center;
+  display: grid;
+  grid-area: sec2;
+  background-color: #F2F4FB;
+}
+#section-3 div #sec5 img {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #section-3 div #sec5 img {
+    height: 300px;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 div #sec5 img {
+    height: 400px;
+  }
 }
 
 /* =============
@@ -1042,22 +1331,54 @@ a {
   background-color: #ffffff;
   color: #2A3150;
   font-weight: 100;
-  padding-top: 40px;
   text-align: center;
-  font-size: 48px;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  #section-4 div aside h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-4 div aside h1 {
+    font-size: 48px;
+  }
 }
 #section-4 div #sec7 {
-  display: flex-end;
-  display: flex;
-  margin-left: 290px;
-  margin-top: 50px;
+  text-align: center;
+  margin: 110px;
   align-content: center;
   gap: 40px;
 }
+#section-4 div #sec7 .selectdiv {
+  grid-area: onee;
+}
+#section-4 div #sec7 .selectdiv2 {
+  grid-area: twoo;
+}
+#section-4 div #sec7 .adults2 {
+  grid-area: threee;
+}
+#section-4 div #sec7 .adults3 {
+  grid-area: fourr;
+}
+@media (min-width: 768px) {
+  #section-4 div #sec7 {
+    grid-template-areas: "onee twoo" "threee fourr";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  #section-4 div #sec7 {
+    grid-template-areas: "onee twoo threee fourr";
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 #section-4 button {
-  padding: 100px;
   display: flex;
-  margin-left: 700px;
+  margin-left: 140px;
   margin-top: 50px;
   align-content: center;
   padding-left: 50px;

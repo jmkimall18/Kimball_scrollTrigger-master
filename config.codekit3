@@ -80,12 +80,64 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/image1\/img_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 124760,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image1\/img_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/image2\/img2.jpg" : {
       "ft" : 16384,
       "iS" : 520749,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/image2\/img2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/image2\/img5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 1186097,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image2\/img5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/image2\/img6.jpg" : {
+      "ft" : 16384,
+      "iS" : 485709,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image2\/img6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/image2\/iPhone 11 Pro\/img22.jpg" : {
+      "ft" : 16384,
+      "iS" : 125848,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image2\/iPhone 11 Pro\/img22.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -199,6 +251,61 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/burgerAnimation.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/burgerAnimation-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/fairmont-anim.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/fairmont-anim-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/menu.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/menu-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/mobileMenu.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/mobileMenu-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/mobileResizing.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/mobileResizing-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
       "ft" : 64,
@@ -207,17 +314,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 2,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/scrollanimation-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/scrollanimation-min-min.js",
-      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -457,11 +553,52 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/gsap-bonus.tgz" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/gsap-bonus.tgz",
+      "oF" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/node_modules",
       "oF" : 0
+    },
+    "\/node_modules\/gsap\/CSSPlugin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/CSSPlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/gsap-core.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/gsap-core-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -1248,7 +1385,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {

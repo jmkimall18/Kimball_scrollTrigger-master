@@ -3,46 +3,86 @@
 ============= */
 #section-4{
 
-
+   
  div{
     margin-bottom: 80px;
     margin-top: 30px;
     aside{
+           
+                  h1{
+                background-color: #ffffff;
+                color: #2A3150;
+                font-weight: 100;
+                text-align: center;
+                font-size: 24px;
+        
+                @include md{
+                font-size: 24px;
+                }
+        
+                @include lg{
+                font-size: 48px; 
+                }
+        
+                           }
 
-        h1{
+           }
 
-            background-color: #ffffff;
-            color: #2A3150;
-            font-weight: 100;
-            padding-top: 40px;
-            text-align: center;
-            font-size: 48px;
+    #sec7{
+        
+        text-align: center;
+        margin: 110px;
+        align-content: center;
+        gap: 40px;
+
+    
+
+        .selectdiv{
+
+            grid-area: onee;
+
+        }
+
+        .selectdiv2{
+
+
+            grid-area: twoo;
 
         }
 
 
-
-    }
-
-    #sec7{
-        display: flex-end;
-        display: flex;
-        margin-left: 290px;
-        margin-top: 50px;
-        align-content: center;
-        gap: 40px;
+        .adults2{
 
 
+            grid-area: threee;
 
 
+        }
 
 
+        .adults3{
+
+            grid-area: fourr;
 
 
+        }
 
+        @include md {
+            grid-template-areas: 
+            "onee twoo"
+            "threee fourr";
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+        }
+    
+        @include lg {
+            grid-template-areas: 
+            "onee twoo threee fourr";
+            display: grid;
+            grid-template-columns:repeat(4, 1fr);
+        }
 
-
-    }
+          }
 
  }
 
@@ -50,10 +90,10 @@
  button{
 
     
-    padding: 100px;
+    
     
     display: flex;
-    margin-left: 700px;
+    margin-left: 140px;
     margin-top: 50px;
     align-content: center;
     padding-left: 50px;
