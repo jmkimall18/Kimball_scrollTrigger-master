@@ -7,8 +7,9 @@ gsap.set("#burger1",{transformOrigin:"center"});
 // gsap.set("#bottom1",{drawSVG: "50% 50%"});
 // gsap.set("#circle-svg",{scale: .2, transformOrigin:"right center", y: "-=400", x: ""});
 // gsap.set("#circle-svg",{scale: 1, y: "-=30", x: "+=30"});
-gsap.set("#circle-svg",{y: "-=140vh", scale: 4});
-gsap.set("#circle-svg2",{y: "-=167vh", scale: 4});
+gsap.set("#circle-svg",{y: "-=90vh", scale: 4});
+gsap.set("#circle-svg2",{y: "-=110vh", scale: 4});
+gsap.set("#circle-cover",{y: "-=120vh"});
 
     
 
@@ -30,7 +31,8 @@ gsap.set("#circle-svg2",{y: "-=167vh", scale: 4});
 
 export const circleTL = new gsap.timeline({paused:true});
 circleTL.set(".circle-stagger", {alpha:1})
-circleTL.to("#circle-svg2", {duration:2.5, y: "+=200vh", scale: 4})
+circleTL.to("#circle-cover", {duration:2.5, y: "+=200vh"}, "same")
+circleTL.to("#circle-svg2", {duration:2.5, y: "+=200vh", scale: 4}, "same")
 circleTL.to("#circle-svg", {duration:1.5, y: "+=200vh", scale: 3}, "-=2.3")
 // circleTL.to("#circle-cover", {duration: 2, color: '#E3BCBA'})
 

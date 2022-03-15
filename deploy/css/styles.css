@@ -425,7 +425,6 @@ textarea {
     Navigation
 ============= */
 #nav-container {
-  display: fixed;
   width: 100%;
   height: 100%;
   display: flex;
@@ -486,7 +485,7 @@ textarea {
 #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
 #nav-container ul li a:visited:hover,
 #nav-container ul li a:visited:active {
-  color: #C38583;
+  color: #fff;
 }
 @media (min-width: 992px) {
   #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
@@ -516,11 +515,21 @@ header {
 }
 header #circle-cover {
   position: fixed;
-  width: 110vw;
+  width: 100%;
   height: 200vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  z-index: 1;
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  header #circle-cover {
+    position: fixed;
+    width: 100%;
+    height: 250vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 2;
+  }
 }
 @media (min-width: 992px) {
   header #circle-cover {
@@ -565,14 +574,11 @@ header > div #logo-container img {
   }
 }
 header > div #burger-container {
-  z-index: 1;
+  z-index: 500;
   grid-area: burger;
   padding: 10px;
   padding-top: 10px;
   cursor: pointer;
-}
-header > div #burger-container:hover, header > div #burger-container:active {
-  color: #C38583;
 }
 @media (min-width: 992px) {
   header > div #burger-container {
@@ -974,6 +980,7 @@ a {
   }
 }
 #section-1 div #sec1 aside button {
+  z-index: 400;
   text-align: right;
   display: flex-end;
   margin-top: 20px;
@@ -1187,6 +1194,7 @@ a {
     Section 3
 ============= */
 #section-3 {
+  z-index: 4;
   background-color: #F2F4FB;
 }
 @media (min-width: 768px) {
@@ -1323,6 +1331,9 @@ a {
 /* =============
     Section 4
 ============= */
+#section-4 {
+  z-index: 500;
+}
 #section-4 div {
   margin-bottom: 80px;
   margin-top: 30px;

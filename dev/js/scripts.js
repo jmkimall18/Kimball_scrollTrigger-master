@@ -21,6 +21,30 @@ let menuScrollable = true;
 
 
 
+let burgerBtn = document.querySelector("#burger-svg");
+burgerBtn.addEventListener("mouseenter", () => {
+    console.log("burger mouse enter");
+    // code for burger mouse leave..... 
+    
+    burgerTL.play();
+    
+})
+
+burgerBtn.addEventListener("mouseleave", () => {
+   
+    // code for burger mouse leave..... 
+    // menuAnimation.reverse();
+  
+    if(canISeeMenu === false){
+        console.log("burger mouse leave");
+        
+        burgerTL.reverse();
+    }
+})
+
+
+
+
 function openCloseMenu(){
 
     if(window.innerWidth <= 1048){
