@@ -605,6 +605,7 @@ header > div #nav-container {
     height: 100%;
     width: 100%;
     font-size: 20px;
+    padding-top: 60px;
   }
 }
 header > div #search {
@@ -616,7 +617,7 @@ header > div #search {
     justify-content: flex-end;
     display: flex;
     grid-area: search;
-    margin-right: -300px;
+    margin-right: -650px;
     padding-bottom: 20px;
     font-size: 30px;
     font-weight: 50px;

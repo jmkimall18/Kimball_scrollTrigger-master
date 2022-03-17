@@ -12,6 +12,8 @@ import { menuAnimation} from "./mobileMenu"
 
 import { menuListners} from "./menu"
 
+import { scrollPage } from "./pageScroll"
+
 
 
 
@@ -84,10 +86,19 @@ console.log(navButtons);
 
 for (const button of navButtons){
     button.addEventListener("click", openCloseMenu)
-    
+    button.addEventListener("click", checkScrolling);
 }
 
+function checkScrolling(e) {
 
+
+    const indexValue = [].indexOf.call(navButtons, e.target);
+    e.stopPropagation();
+    e.preventDefault();
+    if (indexValue != -1) {
+        scrollPage(indexValue - 1);
+    }
+}
 
 
 function screenLocker(){
