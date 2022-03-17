@@ -24,8 +24,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#Group_21",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -42,8 +41,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#Group_21",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -58,8 +56,7 @@ export function photoTrigger1(){
       end: "bottom 70%",
       trigger: "#sec2",
       toggleActions: "restart none resume none",
-      scrub: true,
-      markers: true
+      
       }
   
     });
@@ -73,8 +70,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#sec22",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -88,8 +84,7 @@ export function photoTrigger1(){
         end: "bottom 50%",
         trigger: "#sec22",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -104,8 +99,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#heading1",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -120,8 +114,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#heading2",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -136,8 +129,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#heading3",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -154,8 +146,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#heading4",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -173,6 +164,7 @@ export function photoTrigger1(){
         toggleActions: "restart none resume none",
         scrub: true,
         markers: true
+        
         }
     
       });
@@ -196,8 +188,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#Group_32",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+       
         }
     
       });
@@ -212,8 +203,7 @@ export function photoTrigger1(){
          end: "bottom center",
          trigger: "#Line_4",
          toggleActions: "restart none resume none",
-         scrub: true,
-         markers: true
+         
          }
      
        });
@@ -228,8 +218,7 @@ export function photoTrigger1(){
          end: "bottom center",
          trigger: "#Line_5",
          toggleActions: "restart none resume none",
-         scrub: true,
-         markers: true
+        
          }
      
        });
@@ -244,8 +233,7 @@ export function photoTrigger1(){
         end: "bottom center",
         trigger: "#sec13",
         toggleActions: "restart none resume none",
-        scrub: true,
-        markers: true
+        
         }
     
       });
@@ -261,8 +249,7 @@ export function photoTrigger1(){
        end: "bottom 70%",
        trigger: "#sec5",
        toggleActions: "restart none resume none",
-       scrub: true,
-       markers: true
+       
        }
    
      });
