@@ -244,6 +244,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/location\/main-lobby--v18190185.jpeg" : {
+      "ft" : 16384,
+      "iS" : 1619755,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location\/main-lobby--v18190185.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/location\/main1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 1801943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location\/main1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/location\/recreational-facilities.jpeg" : {
+      "ft" : 16384,
+      "iS" : 232848,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location\/recreational-facilities.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/location\/recreational-facilities22.jpeg" : {
+      "ft" : 16384,
+      "iS" : 254851,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location\/recreational-facilities22.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,

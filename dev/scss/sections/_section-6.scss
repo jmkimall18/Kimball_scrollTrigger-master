@@ -1,53 +1,53 @@
 #section-6{
 
+
+   
+
     div{
 
-        grid-template-areas: 
-        ". sec3 .";
-        display: grid;
-        grid-template-columns:repeat(3, 1fr);
+        margin-top: 80px;
 
         @include md {
             grid-template-areas: 
-            ". sec3 .";
+            "sec4 sec40";
             display: grid;
-            grid-template-columns:repeat(3, 1fr);
+            grid-template-columns:repeat(2, 1fr);
         }
 
         @include lg {
             grid-template-areas: 
-            ". sec3 .";
+            "sec4 sec40";
             display: grid;
-            grid-template-columns:repeat(3, 1fr);
+            grid-template-columns:repeat(2, 1fr);
         }
 
-        #sec3{
+        #sec40{
 
             // display: grid;
-            grid-area: sec3;
-             background-image: url("../img/contact/restaurant2.jpeg");
+            grid-area: sec40;
+             background-image: url("../img/location/main1.jpeg");
              background-size: cover;
              align-items: center;
-             width: 80vw;
-             
-    
+            // height: 100vh;
+            // width: 100vh;
+
              svg{
                 position: absolute;
-               margin-left: -700px;
-              padding-top: 40px;
+               margin-left: 00px;
+              padding-top: 360px;
               width: 50vw;
-    
+                display: none;
               @include md{
                
-                margin-left: -400px;
+                margin-left: -200px;
                 width: 20vw;
         
     
             }
     
             @include lg{
-                
-                margin-left: -850px;
+                display: grid;
+                margin-left: -100px;
                 width: 30vw;
     
             }
@@ -59,41 +59,33 @@
                 margin: 70px;
                 
                 text-align: left;
-                text-align: right;
-                position: relative;
+                
+                position: absolute;
                
                 @include lg{
-                    left: 480px;
-    
+                    left: 400px;
+
                 }
-    
+
                 @include md{
                     left: 200px;
-    
+
                 }
                 
                 
                h1{
-                // background-color: #ffffff;
+                background-color: #ffffff;
                 color: #2A3150;
-                background-color: white;
-                font-size: 20px;
-                
-                color: #2A3150;
-            font-weight: 100;
-            padding-left: 30px;
-            padding-right: 0px;
-            padding-top: 20px;
-            text-align: left;
-            font-size: 24px;
-    
+              
+                font-size: 24px;
+                padding-left: 100px;
                 @include md{
                     font-size: 24px;
                     color: #2A3150;
                 font-weight: 100;
-                padding-left: 30px;
+                padding-left: 80px;
                 padding-right: 0px;
-                padding-top: 20px;
+                padding-top: 200px;
                 text-align: left;
                 font-size: 24px;
             
@@ -105,49 +97,46 @@
                     color: #2A3150;
                 font-weight: 100;
                 
+                padding-left: 20px;
                 padding-top: 200px;
                 text-align: left;
-                padding: 60px;
+                padding: 0px;
                         
                     }
         
                }
         
                p{
-                background-color: #F2F4FB;
                 text-align: left;
-                // background-color: #ffffff;
-                padding: 40px;
-                padding-left: 0px;
+                background-color: #ffffff;
+                padding: 60px;
+                
                 font-size: 14px;
-                font-size: 14px;
-    
-                padding-left: 30px;
-    
+                padding-left: 100px;
         @include md{
             font-size: 14px;
     
-            padding-left: 30px;
+    
             }
     
             @include lg{
             font-size: 18px;
-            padding: 50px;
+            padding-left: 0px;
                 
             }
                }
         
                   a{
-                    
+
                     @include md{
-    
+
                         margin-right:10px;
                     }
                    
                     @include lg{
                         
-                        margin-right: 50px;
-                        //  font-size: 24px;
+                        margin-right: -250px;
+                         font-size: 24px;
                         
                     }
                     
@@ -155,7 +144,7 @@
                     display: flex-end;
                     
                     
-                    padding-top: 50px;
+                    padding-top: 90px;
                     // margin-bottom: 100px;
                     background-color: transparent;
                     border: transparent;
@@ -170,21 +159,73 @@
                         color: #C38583;
                     }
                    }
-    
-    
-    
+
+
+
         }
-    
-    
-    
+
+
+
+    }
+
+
+    #sec4{
+        grid-area: sec4;
+
+        svg{
+
+            margin-left: 00px;
+            margin-right: 0px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            width: 100px;
+            height: 560px;
+          
+
+           @include md{
+
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            width: 100px;
+            height: 560px;
+
+
+
+
+        }
+
+
+        @include lg{
+
+        //     margin-left: 500px;
+        //     margin-right: 100px;
+        //     padding-top: 70px;
+        //     padding-bottom: 70px;
+        //    width: 1px;
+        //    height: 300px;
+
+
+
+
+        }
+        
+
+
+
+        }
+
+
+
+
     }
     
 
 
-    }
-    
 
-   
+    }
+
 
 
 

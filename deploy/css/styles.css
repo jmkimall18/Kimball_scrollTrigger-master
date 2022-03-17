@@ -1685,124 +1685,114 @@ a {
   }
 }
 #section-6 div {
-  grid-template-areas: ". sec3 .";
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
 }
 @media (min-width: 768px) {
   #section-6 div {
-    grid-template-areas: ". sec3 .";
+    grid-template-areas: "sec4 sec40";
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 992px) {
   #section-6 div {
-    grid-template-areas: ". sec3 .";
+    grid-template-areas: "sec4 sec40";
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-#section-6 div #sec3 {
-  grid-area: sec3;
-  background-image: url("../img/contact/restaurant2.jpeg");
+#section-6 div #sec40 {
+  grid-area: sec40;
+  background-image: url("../img/location/main1.jpeg");
   background-size: cover;
   align-items: center;
-  width: 80vw;
 }
-#section-6 div #sec3 svg {
+#section-6 div #sec40 svg {
   position: absolute;
-  margin-left: -700px;
-  padding-top: 40px;
+  margin-left: 0px;
+  padding-top: 360px;
   width: 50vw;
+  display: none;
 }
 @media (min-width: 768px) {
-  #section-6 div #sec3 svg {
-    margin-left: -400px;
+  #section-6 div #sec40 svg {
+    margin-left: -200px;
     width: 20vw;
   }
 }
 @media (min-width: 992px) {
-  #section-6 div #sec3 svg {
-    margin-left: -850px;
+  #section-6 div #sec40 svg {
+    display: grid;
+    margin-left: -100px;
     width: 30vw;
   }
 }
-#section-6 div #sec3 aside {
+#section-6 div #sec40 aside {
   margin: 70px;
   text-align: left;
-  text-align: right;
-  position: relative;
+  position: absolute;
 }
 @media (min-width: 992px) {
-  #section-6 div #sec3 aside {
-    left: 480px;
+  #section-6 div #sec40 aside {
+    left: 400px;
   }
 }
 @media (min-width: 768px) {
-  #section-6 div #sec3 aside {
+  #section-6 div #sec40 aside {
     left: 200px;
   }
 }
-#section-6 div #sec3 aside h1 {
+#section-6 div #sec40 aside h1 {
+  background-color: #ffffff;
   color: #2A3150;
-  background-color: white;
-  font-size: 20px;
-  color: #2A3150;
-  font-weight: 100;
-  padding-left: 30px;
-  padding-right: 0px;
-  padding-top: 20px;
-  text-align: left;
   font-size: 24px;
+  padding-left: 100px;
 }
 @media (min-width: 768px) {
-  #section-6 div #sec3 aside h1 {
+  #section-6 div #sec40 aside h1 {
     font-size: 24px;
     color: #2A3150;
     font-weight: 100;
-    padding-left: 30px;
+    padding-left: 80px;
     padding-right: 0px;
-    padding-top: 20px;
+    padding-top: 200px;
     text-align: left;
     font-size: 24px;
   }
 }
 @media (min-width: 992px) {
-  #section-6 div #sec3 aside h1 {
+  #section-6 div #sec40 aside h1 {
     font-size: 48px;
     color: #2A3150;
     font-weight: 100;
+    padding-left: 20px;
     padding-top: 200px;
     text-align: left;
-    padding: 60px;
+    padding: 0px;
   }
 }
-#section-6 div #sec3 aside p {
-  background-color: #F2F4FB;
+#section-6 div #sec40 aside p {
   text-align: left;
-  padding: 40px;
-  padding-left: 0px;
+  background-color: #ffffff;
+  padding: 60px;
   font-size: 14px;
-  font-size: 14px;
-  padding-left: 30px;
+  padding-left: 100px;
 }
 @media (min-width: 768px) {
-  #section-6 div #sec3 aside p {
+  #section-6 div #sec40 aside p {
     font-size: 14px;
-    padding-left: 30px;
   }
 }
 @media (min-width: 992px) {
-  #section-6 div #sec3 aside p {
+  #section-6 div #sec40 aside p {
     font-size: 18px;
-    padding: 50px;
+    padding-left: 0px;
   }
 }
-#section-6 div #sec3 aside a {
+#section-6 div #sec40 aside a {
   text-align: center;
   display: flex-end;
-  padding-top: 50px;
+  padding-top: 90px;
   background-color: transparent;
   border: transparent;
   color: #2A3150;
@@ -1813,19 +1803,40 @@ a {
   font-size: 24px;
 }
 @media (min-width: 768px) {
-  #section-6 div #sec3 aside a {
+  #section-6 div #sec40 aside a {
     margin-right: 10px;
   }
 }
 @media (min-width: 992px) {
-  #section-6 div #sec3 aside a {
-    margin-right: 50px;
+  #section-6 div #sec40 aside a {
+    margin-right: -250px;
+    font-size: 24px;
   }
 }
-#section-6 div #sec3 aside a:hover, #section-6 div #sec3 aside a:active {
+#section-6 div #sec40 aside a:hover, #section-6 div #sec40 aside a:active {
   color: #C38583;
 }
-
+#section-6 div #sec4 {
+  grid-area: sec4;
+}
+#section-6 div #sec4 svg {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100px;
+  height: 560px;
+}
+@media (min-width: 768px) {
+  #section-6 div #sec4 svg {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100px;
+    height: 560px;
+  }
+}
 #section-7 #rom1 {
   margin: 60px;
 }
