@@ -81,9 +81,11 @@ export function photoTrigger1(){
         translateX: "-=200px",
         scrollTrigger:{ 
         start: "top center",
-        end: "bottom 50%",
-        trigger: "#sec22",
+        end: "bottom center",
+        trigger: "#sec3",
         toggleActions: "restart none resume none",
+        scrub: true,
+        markers: true
         
         }
     
