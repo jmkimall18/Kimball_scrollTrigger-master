@@ -6,6 +6,9 @@ a {
 
 #section-5{
 
+    background-image: url("../img/history1/Vector31.png");
+    background-size: cover;
+    background-position: center;
     
     
     background-color: #F2F4FB;
@@ -15,29 +18,36 @@ div{
 
     @include md {
         grid-template-areas: 
-        "sec1 sec2";
+        "sec1 sec2"
+        "sec11  sec10"
+        "sec22 sec20";
         display: grid;
         grid-template-columns:repeat(2, 1fr);
     }
 
+    
+
     @include lg {
         grid-template-areas: 
-        "sec1 sec2";
+        "sec1 sec2"
+        "sec11  sec10"
+        "sec22 sec20";
         display: grid;
         grid-template-columns:repeat(2, 1fr);
     }
-    
+
+  
  #sec1{
    
     grid-area: sec1;
   
-    background-color: #F2F4FB;
+   
 
        
     aside{
-        margin-top: 70px;
+        margin-top: 80px;
         margin-bottom: 70px;
-        margin-left: 30px;
+       
         background-color: #ffffff;
         text-align: left;
         text-align: right;
@@ -49,7 +59,7 @@ div{
         font-weight: 100;
         padding-left: 50px;
         padding-right: 40px;
-        padding-top: 40px;
+        padding-top: 100px;
         text-align: left;
         font-size: 24px;
 
@@ -69,7 +79,7 @@ div{
        p{
         text-align: left;
         background-color: #ffffff;
-        padding: 60px;
+        padding: 65px;
         font-size: 14px;
 
         @include md{
@@ -124,7 +134,7 @@ div{
         align-items: center;
         display: grid;
         grid-area: sec2;
-        background-color: #F2F4FB;
+        
         img{
          display: flex;
          width: 100%;
@@ -150,6 +160,223 @@ div{
          
 
          }
+
+
+#sec20{
+
+    grid-area: sec20;
+
+    h1{
+        background-color: #ffffff;
+        color: #2A3150;
+        font-weight: 100;
+        padding-left: 50px;
+        padding-right: 40px;
+        padding-top: 100px;
+        text-align: left;
+        font-size: 24px;
+
+        @include md{
+        font-size: 24px;
+
+
+        }
+
+        @include lg{
+        font-size: 48px;
+            
+        }
+
+       }
+
+       p{
+        text-align: left;
+        background-color: #ffffff;
+        padding: 65px;
+        font-size: 14px;
+
+        @include md{
+            font-size: 14px;
+    
+    
+            }
+    
+            @include lg{
+            font-size: 18px;
+                
+            }
+       }
+
+
+
+
+}
+
+
+#sec22{
+    align-items: center;
+    display: grid;
+    grid-area: sec22;
+ 
+    background-color: #F2F4FB;
+    img{
+     display: flex;
+     width: 100%;
+     
+     align-items: center;
+        @include md{
+           
+            height: 300px;
+            align-items: center;
+
+        }
+
+        @include lg{
+            
+            
+            height: 400px;
+
+        }
+        
+    }
+
+
+     
+
+     }
+
+
+
+     #sec10{
+   
+        grid-area: sec10;
+      
+       
+    
+           
+        aside{
+            margin-top: 80px;
+            margin-bottom: 70px;
+           
+            
+            text-align: left;
+            text-align: right;
+            
+            
+           h1{
+            
+            color: #2A3150;
+            font-weight: 100;
+            padding-left: 50px;
+            padding-right: 40px;
+            padding-top: 100px;
+            text-align: left;
+            font-size: 24px;
+    
+            @include md{
+            font-size: 24px;
+    
+    
+            }
+    
+            @include lg{
+            font-size: 48px;
+                
+            }
+    
+           }
+    
+           p{
+            text-align: left;
+            
+            padding: 65px;
+            font-size: 14px;
+    
+            @include md{
+                font-size: 14px;
+        
+        
+                }
+        
+                @include lg{
+                font-size: 18px;
+                    
+                }
+           }
+    
+               button{
+                z-index: 400;
+                
+                text-align: right;
+                display: flex-end;
+                
+                margin-top: 20px;
+                margin-bottom: 200px;
+                background-color: transparent;
+                border: transparent;
+                color: #2A3150;
+                margin-right: 40px;
+                cursor: pointer;
+                transition: 0.25s;
+                font-family: 'Noto Serif', serif;
+                font-weight: 700;
+                font-size: 20px;
+                &:hover,
+                &:active {
+                    color: #C38583;
+                }
+    
+                @include md{
+                    font-size: 20px;
+            
+            
+                    }
+            
+                    @include lg{
+                    font-size: 24px;
+                        
+                    }
+               }
+    
+        }
+                        }
+
+
+
+
+                        #sec11{
+                            align-items: center;
+                            display: grid;
+                            grid-area: sec11;
+                            margin: 50px;
+                            
+                            img{
+                             display: flex;
+                             width: 100%;
+                             
+                             align-items: center;
+                                @include md{
+                                   
+                                    
+                                    align-items: center;
+                        
+                                }
+                        
+                                @include lg{
+                                    
+                                    
+                                    
+                                }
+                                
+                            }
+                        
+                        
+                             
+                        
+                             }
+         
+
+
         }
         
 

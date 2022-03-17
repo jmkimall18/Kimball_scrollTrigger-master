@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34264",
   "files" : {
+    "\/deploy\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -31,6 +39,32 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/contact\/restaurant2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 243003,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/contact\/restaurant2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/contact\/restaurant8.jpeg" : {
+      "ft" : 16384,
+      "iS" : 291133,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/contact\/restaurant8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/fairmont\/Group 2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -50,6 +84,71 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history1\/Group_50.png" : {
+      "ft" : 32768,
+      "iS" : 11257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history1\/Group_50.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history1\/image2.jpg" : {
+      "ft" : 16384,
+      "iS" : 96294,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history1\/image2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history1\/photo1-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 209405,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history1\/photo1-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history1\/Vector30.png" : {
+      "ft" : 32768,
+      "iS" : 131628,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history1\/Vector30.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history1\/Vector31.png" : {
+      "ft" : 32768,
+      "iS" : 62116,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history1\/Vector31.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -155,6 +254,58 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/room\/guest-room.jpeg" : {
+      "ft" : 16384,
+      "iS" : 201292,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/room\/guest-room.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/room\/guest-room2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 224503,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/room\/guest-room2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/room\/other2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 227506,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/room\/other2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/room\/room3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 470761,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/room\/room3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/sketch\/chateau-frontenac-rue-de-la-montagne-louise-lavallee 1.jpg" : {
       "ft" : 16384,
       "iS" : 285957,
@@ -211,6 +362,14 @@
       "oAP" : "\/deploy\/rooms.html",
       "oF" : 0
     },
+    "\/dev\/contact.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 2
+    },
     "\/dev\/content\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -265,6 +424,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/section-7.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-8.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-8.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -672,6 +839,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_section-7.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-8.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-8.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

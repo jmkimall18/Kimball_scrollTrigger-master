@@ -2,7 +2,7 @@
 
 
 
-import {arrowJumpTL} from "./fairmont-anim"
+import {arrowJumpTL, oneJumpTL} from "./fairmont-anim"
 
 import { burgerTL, burgerJumpTL, circleTL} from "./burgerAnimation"
 
@@ -14,7 +14,8 @@ import { menuListners} from "./menu"
 
 // import { scrollPage } from "./pageScroll"
 
-import { photoTrigger1 } from "./scrollanimation";
+import { photoTrigger1} from "./scrollanimation";
+import { photoTrigger2} from "./scrollanimation";
 
 
 
@@ -120,8 +121,9 @@ function screenLocker(){
 
 
 window.addEventListener('load', arrowJumpTL);
+window.addEventListener('load', oneJumpTL);
 window.addEventListener('load',  photoTrigger1);
-
+window.addEventListener('load',  photoTrigger2);
 
 
 

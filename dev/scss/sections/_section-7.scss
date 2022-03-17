@@ -1,0 +1,732 @@
+#section-7{
+
+    #rom1{
+        margin: 60px;
+
+        h1{
+            // background-color: #ffffff;
+            color: #2A3150;
+            background-color: white;
+            font-size: 20px;
+            
+            color: #2A3150;
+        font-weight: 100;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        font-size: 24px;
+
+            @include md{
+                font-size: 24px;
+                color: #2A3150;
+            font-weight: 100;
+            padding-left: 30px;
+            padding-right: 0px;
+            padding-top: 20px;
+            text-align: left;
+            font-size: 24px;
+        
+        
+                }
+        
+                @include lg{
+                font-size: 48px;
+                color: #2A3150;
+            font-weight: 100;
+            
+            padding-top: 200px;
+            text-align: left;
+            padding: 60px;
+                    
+                }
+    
+           }
+    
+           p{
+            background-color: #F2F4FB;
+            text-align: left;
+            // background-color: #ffffff;
+            padding: 40px;
+            padding-left: 0px;
+            font-size: 14px;
+            font-size: 14px;
+
+            padding-left: 30px;
+
+    @include md{
+        font-size: 14px;
+
+        padding-left: 30px;
+        }
+
+        @include lg{
+        font-size: 18px;
+        padding: 50px;
+            
+        }
+           }
+
+           h2{
+            background-color: #F2F4FB;
+            text-align: left;
+            // background-color: #ffffff;
+            padding: 40px;
+            padding-left: 0px;
+            font-size: 14px;
+            font-size: 14px;
+
+            padding-left: 30px;
+
+    @include md{
+        font-size: 14px;
+
+        padding-left: 30px;
+        }
+
+        @include lg{
+        font-size: 18px;
+        padding: 50px;
+            
+        }
+           }
+    
+
+    }
+
+    #rom2{
+        margin-top: 20px;
+        // display: grid;
+        grid-area: sec3;
+         background-image: url("../img/room/guest-room.jpeg");
+         background-size: cover;
+         align-items: center;
+         width: 90vw;
+         height: 100vh;
+           
+        aside{
+            margin: 70px;
+            
+            text-align: left;
+            text-align: right;
+            position: relative;
+           
+            @include lg{
+                left: 480px;
+
+            }
+
+            @include md{
+                left: 200px;
+
+            }
+            
+            
+           h1{
+            // background-color: #ffffff;
+            color: #2A3150;
+            background-color: white;
+            font-size: 20px;
+            
+            color: #2A3150;
+        font-weight: 100;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        font-size: 24px;
+
+            @include md{
+                font-size: 24px;
+                color: #2A3150;
+            font-weight: 100;
+            padding-left: 30px;
+            padding-right: 0px;
+            padding-top: 20px;
+            text-align: left;
+            font-size: 24px;
+        
+        
+                }
+        
+                @include lg{
+                font-size: 48px;
+                color: #2A3150;
+            font-weight: 100;
+            
+            padding-top: 200px;
+            text-align: left;
+            padding: 60px;
+                    
+                }
+    
+           }
+    
+           p{
+            background-color: #F2F4FB;
+            text-align: left;
+            // background-color: #ffffff;
+            padding: 40px;
+            padding-left: 0px;
+            font-size: 14px;
+            font-size: 14px;
+
+            padding-left: 30px;
+
+    @include md{
+        font-size: 14px;
+
+        padding-left: 30px;
+        }
+
+        @include lg{
+        font-size: 18px;
+        padding: 50px;
+            
+        }
+           }
+
+           h2{
+            background-color: #F2F4FB;
+            text-align: left;
+            // background-color: #ffffff;
+            padding: 40px;
+            padding-left: 0px;
+            font-size: 14px;
+            font-size: 14px;
+
+            padding-left: 30px;
+
+    @include md{
+        font-size: 14px;
+
+        padding-left: 30px;
+        }
+
+        @include lg{
+        font-size: 18px;
+        padding: 50px;
+            
+        }
+           }
+    
+              a{
+                
+                @include md{
+
+                    margin-right:10px;
+                }
+               
+                @include lg{
+                    
+                    margin-right: 50px;
+                    //  font-size: 24px;
+                    
+                }
+                
+                text-align: center;
+                display: flex-end;
+                
+                
+                padding-top: 50px;
+                // margin-bottom: 100px;
+                background-color: transparent;
+                border: transparent;
+                color: #2A3150;
+                cursor: pointer;
+                transition: 0.25s;
+                font-family: 'Noto Serif', serif;
+                font-weight: 700;
+                font-size: 24px;
+                &:hover,
+                &:active {
+                    color: #C38583;
+                }
+               }
+
+
+
+    }
+
+
+
+}
+
+
+#rom3{
+    margin-top: 20px;
+    // display: grid;
+    grid-area: sec3;
+     background-image: url("../img/room/guest-room2.jpeg");
+     background-size: cover;
+     align-items: center;
+     width: 90vw;
+     height: 100vh;
+       
+    aside{
+        margin: 70px;
+        
+        text-align: left;
+        text-align: right;
+        position: relative;
+       
+        @include lg{
+            left: 480px;
+
+        }
+
+        @include md{
+            left: 200px;
+
+        }
+        
+        
+       h1{
+        // background-color: #ffffff;
+        color: #2A3150;
+        background-color: white;
+        font-size: 20px;
+        
+        color: #2A3150;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 24px;
+
+        @include md{
+            font-size: 24px;
+            color: #2A3150;
+        font-weight: 100;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        font-size: 24px;
+    
+    
+            }
+    
+            @include lg{
+            font-size: 48px;
+            color: #2A3150;
+        font-weight: 100;
+        
+        padding-top: 200px;
+        text-align: left;
+        padding: 60px;
+                
+            }
+
+       }
+
+       p{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 40px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 50px;
+        
+    }
+       }
+
+       h2{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 40px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 50px;
+        
+    }
+       }
+
+          a{
+            
+            @include md{
+
+                margin-right:10px;
+            }
+           
+            @include lg{
+                
+                margin-right: 50px;
+                //  font-size: 24px;
+                
+            }
+            
+            text-align: center;
+            display: flex-end;
+            
+            
+            padding-top: 50px;
+            // margin-bottom: 100px;
+            background-color: transparent;
+            border: transparent;
+            color: #2A3150;
+            cursor: pointer;
+            transition: 0.25s;
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            font-size: 24px;
+            &:hover,
+            &:active {
+                color: #C38583;
+            }
+           }
+
+
+
+}
+
+
+
+}
+
+#rom4{
+    margin-top: 20px;
+    // display: grid;
+    grid-area: sec3;
+     background-image: url("../img/room/other2.jpeg");
+     background-size: cover;
+     align-items: center;
+     width: 90vw;
+     height: 100vh;
+       
+    aside{
+        margin: 70px;
+        
+        text-align: left;
+        text-align: right;
+        position: relative;
+       
+        @include lg{
+            left: 480px;
+
+        }
+
+        @include md{
+            left: 200px;
+
+        }
+        
+        
+       h1{
+        // background-color: #ffffff;
+        color: #2A3150;
+        background-color: white;
+        font-size: 20px;
+        
+        color: #2A3150;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 24px;
+
+        @include md{
+            font-size: 24px;
+            color: #2A3150;
+        font-weight: 100;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        font-size: 24px;
+    
+    
+            }
+    
+            @include lg{
+            font-size: 48px;
+            color: #2A3150;
+        font-weight: 100;
+        
+        padding-top: 200px;
+        text-align: left;
+        padding: 60px;
+                
+            }
+
+       }
+
+       p{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 70px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 80px;
+        
+    }
+       }
+
+       h2{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 40px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 50px;
+        
+    }
+       }
+
+          a{
+            
+            @include md{
+
+                margin-right:10px;
+            }
+           
+            @include lg{
+                
+                margin-right: 50px;
+                //  font-size: 24px;
+                
+            }
+            
+            text-align: center;
+            display: flex-end;
+            
+            
+            padding-top: 50px;
+            // margin-bottom: 100px;
+            background-color: transparent;
+            border: transparent;
+            color: #2A3150;
+            cursor: pointer;
+            transition: 0.25s;
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            font-size: 24px;
+            &:hover,
+            &:active {
+                color: #C38583;
+            }
+           }
+
+
+
+}
+
+
+
+}
+
+#rom5{
+    margin-top: 20px;
+    // display: grid;
+    grid-area: sec3;
+     background-image: url("../img/room/room3.jpeg");
+     background-size: cover;
+     align-items: center;
+     width: 90vw;
+     height: 100vh;
+       
+    aside{
+        margin: 70px;
+        
+        text-align: left;
+        text-align: right;
+        position: relative;
+       
+        @include lg{
+            left: 480px;
+
+        }
+
+        @include md{
+            left: 200px;
+
+        }
+        
+        
+       h1{
+        // background-color: #ffffff;
+        color: #2A3150;
+        background-color: white;
+        font-size: 20px;
+        
+        color: #2A3150;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 24px;
+
+        @include md{
+            font-size: 24px;
+            color: #2A3150;
+        font-weight: 100;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        font-size: 24px;
+    
+    
+            }
+    
+            @include lg{
+            font-size: 48px;
+            color: #2A3150;
+        font-weight: 100;
+        
+        padding-top: 200px;
+        text-align: left;
+        padding: 60px;
+                
+            }
+
+       }
+
+       p{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 40px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 50px;
+        
+    }
+       }
+
+       h2{
+        background-color: #F2F4FB;
+        text-align: left;
+        // background-color: #ffffff;
+        padding: 40px;
+        padding-left: 0px;
+        font-size: 14px;
+        font-size: 14px;
+
+        padding-left: 30px;
+
+@include md{
+    font-size: 14px;
+
+    padding-left: 30px;
+    }
+
+    @include lg{
+    font-size: 18px;
+    padding: 50px;
+        
+    }
+       }
+
+          a{
+            
+            @include md{
+
+                margin-right:10px;
+            }
+           
+            @include lg{
+                
+                margin-right: 50px;
+                //  font-size: 24px;
+                
+            }
+            
+            text-align: center;
+            display: flex-end;
+            
+            
+            padding-top: 50px;
+            // margin-bottom: 100px;
+            background-color: transparent;
+            border: transparent;
+            color: #2A3150;
+            cursor: pointer;
+            transition: 0.25s;
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            font-size: 24px;
+            &:hover,
+            &:active {
+                color: #C38583;
+            }
+           }
+
+
+
+}
+
+
+
+}
+
+
+
+}

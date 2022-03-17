@@ -16,6 +16,7 @@ header {
 
 
     #circle-cover{
+        
 
         @include md{
             
@@ -45,7 +46,7 @@ header {
 
 		overflow-x: hidden;
 		overflow-y: hidden;
-		z-index: 2;
+		z-index: 800;
 
 		
 	
@@ -97,7 +98,7 @@ header {
         #logo-container {
           
             grid-area: logo;
-            z-index: 1000;
+            z-index: 700;
             img{
                 margin-top: 0px;
                 padding-left: 30px;

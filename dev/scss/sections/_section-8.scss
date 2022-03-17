@@ -1,28 +1,31 @@
-#section-6{
+#section-8{
 
     div{
 
         grid-template-areas: 
-        ". sec3 .";
+        ". sec3 ."
+        ". sec4 .";
         display: grid;
         grid-template-columns:repeat(3, 1fr);
 
         @include md {
             grid-template-areas: 
-            ". sec3 .";
+            ". sec3 ."
+            ". sec4 .";
             display: grid;
             grid-template-columns:repeat(3, 1fr);
         }
 
         @include lg {
             grid-template-areas: 
-            ". sec3 .";
+            ". sec3 ."
+            ". sec4 .";
             display: grid;
             grid-template-columns:repeat(3, 1fr);
         }
 
         #sec3{
-
+            margin-top: 60px;
             // display: grid;
             grid-area: sec3;
              background-image: url("../img/contact/restaurant2.jpeg");
@@ -179,13 +182,96 @@
     
     }
     
+    #sec4{
+        
+      
+        text-align: center;
+       margin-top: 70px;
+        grid-area: sec4;
 
+
+        >form{
+
+            #name1{
+                padding: 20px;
+                width: 27vw;
+                background-color: #ffffff;
+
+
+
+            }
+            #email1{
+                width: 27vw;
+                background-color: #ffffff;
+
+
+
+            }
+            #subject1{
+                
+                width: 27vw;
+                background-color: #ffffff;
+
+
+
+            }
+
+
+            #message1{
+                padding-right: 40px;
+                padding-top: 20px;
+                padding-bottom: 80px;
+                width: 83vw;
+                background-color: #ffffff;
+
+
+
+            }
+
+
+            #submit1{
+
+                width: 60vw;
+                background-color: #ffffff;
+
+               
+    
+
+    font-family: 'Noto Serif', serif;
+    border: 1 px;
+    cursor: pointer;
+    font-size: rem-calc(30);
+
+    &:hover{
+
+        background-color:  #adbbe9;
+        transition: .5s;
+    }
+
+    
+
+    
+    }
+
+               
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+    }
 
     }
     
 
-   
 
 
-
-}
