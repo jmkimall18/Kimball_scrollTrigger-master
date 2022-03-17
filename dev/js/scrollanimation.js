@@ -5,6 +5,7 @@ import {ScrollTrigger} from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.set("#sec2",{transformOrigin:"right center"});
+gsap.set("#img9",{transformOrigin:"right center"});
 gsap.set("#sec22",{transformOrigin:"right center"});
 gsap.set("#Line_3",{transformOrigin:"right center"});
 gsap.set("#Group_21",{transformOrigin:"left center", scale: 1.2});
@@ -158,6 +159,24 @@ export function photoTrigger1(){
         }
     
       });
+
+
+      gsap.from("#img9", {
+        // duration:4, 
+        translateX: "+=700px",
+        
+        scrollTrigger:{ 
+            yoyo:2,
+        start: "top center",
+        end: "bottom center",
+        trigger: "#Group_26",
+        toggleActions: "restart none resume none",
+        scrub: true,
+        markers: true
+        }
+    
+      });
+
 
 
 
