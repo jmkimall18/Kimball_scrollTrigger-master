@@ -1,6 +1,12 @@
 /* =============
     Base
 ============= */
+
+body{
+    overflow-x: hidden;
+    // overflow-y: hidden ;
+}
+
 figure{
     padding: 0;
     margin: 0;

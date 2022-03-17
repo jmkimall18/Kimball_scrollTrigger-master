@@ -348,6 +348,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  overflow-x: hidden;
+}
+
 figure {
   padding: 0;
   margin: 0;

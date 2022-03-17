@@ -14,6 +14,8 @@ import { menuListners} from "./menu"
 
 import { scrollPage } from "./pageScroll"
 
+import { photoTrigger1 } from "./scrollanimation";
+
 
 
 
@@ -118,7 +120,7 @@ function screenLocker(){
 
 
 window.addEventListener('load', arrowJumpTL);
-
+window.addEventListener('load',  photoTrigger1);
 
 
 

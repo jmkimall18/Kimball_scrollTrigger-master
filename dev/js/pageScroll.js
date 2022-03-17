@@ -3,7 +3,7 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollToPlugin);
 
-let idArray = ["#section-1", "#section-2", "#section-3", "#section-4"];
+let idArray = ["overview.html", "#section-2", "#section-3", "#section-4"];
 
 
 
