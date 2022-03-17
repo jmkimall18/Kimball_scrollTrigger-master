@@ -1689,14 +1689,14 @@ a {
 }
 @media (min-width: 768px) {
   #section-6 div {
-    grid-template-areas: "sec4 sec40";
+    grid-template-areas: "sec4 sec40" "img8 loc2" "loc3 img9";
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 992px) {
   #section-6 div {
-    grid-template-areas: "sec4 sec40";
+    grid-template-areas: "sec4 sec40" "img8 loc2" "loc3 img9";
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1837,6 +1837,204 @@ a {
     height: 560px;
   }
 }
+#section-6 div #loc2 {
+  grid-area: loc2;
+}
+#section-6 div #loc2 aside {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+  text-align: left;
+  text-align: right;
+}
+#section-6 div #loc2 aside h1 {
+  background-color: #ffffff;
+  color: #2A3150;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 100px;
+  text-align: left;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc2 aside h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc2 aside h1 {
+    font-size: 48px;
+  }
+}
+#section-6 div #loc2 aside p {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 65px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc2 aside p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc2 aside p {
+    font-size: 18px;
+  }
+}
+#section-6 div #loc2 aside button {
+  z-index: 400;
+  text-align: right;
+  display: flex-end;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  background-color: transparent;
+  border: transparent;
+  color: #2A3150;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: 0.25s;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#section-6 div #loc2 aside button:hover, #section-6 div #loc2 aside button:active {
+  color: #C38583;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc2 aside button {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc2 aside button {
+    font-size: 24px;
+  }
+}
+#section-6 div #img8 {
+  align-items: center;
+  display: grid;
+  grid-area: img8;
+}
+#section-6 div #img8 img {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #section-6 div #img8 img {
+    height: 300px;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #img8 img {
+    height: 400px;
+  }
+}
+#section-6 div #loc3 {
+  grid-area: loc3;
+  padding-left: 100px;
+  text-align: left;
+}
+#section-6 div #loc3 h1 {
+  background-color: #ffffff;
+  color: #2A3150;
+  text-align: left;
+  font-size: 24px;
+  padding-top: 60px;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc3 h1 {
+    font-size: 24px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc3 h1 {
+    font-size: 48px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-top: 200px;
+    text-align: left;
+    padding: 0px;
+  }
+}
+#section-6 div #loc3 h2 {
+  background-color: #ffffff;
+  color: #2A3150;
+  text-align: left;
+  font-size: 24px;
+  padding-top: 100px;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc3 h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-right: 0px;
+    padding-top: 100px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc3 h2 {
+    text-align: left;
+    font-size: 48px;
+    color: #2A3150;
+    font-weight: 100;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding: 0px;
+  }
+}
+#section-6 div #loc3 p {
+  text-align: left;
+  background-color: #ffffff;
+  padding-right: 60px;
+  padding-top: 60px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #section-6 div #loc3 p {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #loc3 p {
+    font-size: 18px;
+    padding-right: 0px;
+  }
+}
+#section-6 div #img9 {
+  display: none;
+  padding-top: 400px;
+  padding-left: 100px;
+  margin-left: 0px;
+  grid-area: img9;
+}
+@media (min-width: 768px) {
+  #section-6 div #img9 {
+    display: grid;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 div #img9 {
+    display: grid;
+    padding-top: 300px;
+    padding-left: 200px;
+    margin-left: 0px;
+  }
+}
+
 #section-7 #rom1 {
   margin: 60px;
 }
@@ -1949,7 +2147,7 @@ a {
   font-weight: 100;
   padding-left: 30px;
   padding-right: 0px;
-  padding-top: 20px;
+  padding-top: 0px;
   text-align: left;
   font-size: 24px;
 }
