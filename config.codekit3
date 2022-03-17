@@ -187,6 +187,30 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/location.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/location.html",
+      "oF" : 0
+    },
+    "\/deploy\/overview.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/overview.html",
+      "oF" : 0
+    },
+    "\/deploy\/rooms.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/rooms.html",
+      "oF" : 0
+    },
     "\/dev\/content\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -225,6 +249,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/section-5.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-6.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-6.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-7.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-7.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -314,12 +354,23 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/pageScroll-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/pageScroll-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/pageScroll.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/pageScroll-min.js",
       "oF" : 0,
       "sC" : 3,
@@ -347,12 +398,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/location.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/location.html",
+      "oF" : 2
+    },
     "\/dev\/overview.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/overview.html",
+      "oF" : 2
+    },
+    "\/dev\/rooms.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/rooms.html",
       "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
@@ -560,6 +627,51 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_section-4.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-5.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-5.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-6.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-6.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-7.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-7.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
